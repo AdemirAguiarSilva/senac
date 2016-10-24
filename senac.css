@@ -1,0 +1,646 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	margin: 0 auto;
+	width: 1000px;
+}
+header#principal{
+	border:0px solid orange;
+	border-bottom:1px solid #00478B;
+	width: 1000px;
+	height: 182px;
+}
+header section#topo{
+	width: 1000px;
+	height: 31px;
+	background-color: #004B97;
+	font-family:tahoma, arial, verdana;
+}
+section#topo div#topohome{
+	float: left;
+	width: 55px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	margin-top: 4px;
+	color: #FFFFFF;
+	margin-right: 4px;
+	text-align: center;
+	font-size: 12.2px;
+	background-color: #0068DA;
+}
+section#topo div#topohome a{	
+	text-decoration: none;
+	color: #FFFFFF;
+	background-color: #0068DA;
+}
+section#topo div#topoead{
+	float: left;
+	width: 55px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	margin-top: 4px;
+	color: #FFFFFF;
+	margin-right: 4px;
+	text-align: center;
+	font-size: 12.2px;
+	background-color: #53B200;
+}
+section#topo div#topoead a{	
+	text-decoration: none;
+	color: #FFFFFF;
+	background-color: #53B200;
+}
+section#topo div#topohoteis{
+	float: left;
+	width: 55px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	margin-top: 4px;
+	color: #FFFFFF;
+	margin-right: 4px;
+	text-align: center;
+	font-size: 12.2px;
+	background-color: #FF6A88;
+}
+section#topo div#topohoteis a{	
+	text-decoration: none;
+	color: #FFFFFF;
+	background-color: #FF6A88;
+}
+section#topo div#topoeditora{
+	float: left;
+	width: 55px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	margin-top: 4px;
+	color: #FFFFFF;
+	margin-right: 4px;
+	text-align: center;
+	font-size: 12.2px;
+	background-color: #F7855E;
+}
+section#topo div#topoeditora a{	
+	text-decoration: none;
+	color: #FFFFFF;
+	background-color: #F7855E;
+}
+
+section#topo div#busca{
+	float: left;
+	font-size: 12px;
+	padding-top: 8px;	
+	padding-left: 46px;
+	padding-right: 5px;
+	color: #FFFFFF;
+}
+section#topo div#buscageral{	
+    border: 0px solid #FFFFFF;
+    color: #FFFFFF;
+    float: left;
+    font-family: Tahoma,Verdana;
+    font-size: 12px;
+    height: 23px;
+    text-decoration: none;
+    width: 19%;
+}
+section#topo #txt_busca{
+	margin-top: 4px;
+    border: 0 solid #000000;
+    color: #777777;
+    font-family: tahoma,verdana;
+    font-size: 12px;
+    height: 23px;
+    width: 100%;
+}
+
+section#topo div#botaopesquisar{
+    float: left;
+    height: 20.5px;
+    margin-left: -2.4%;
+    margin-top: 5px;
+    width: 22px;
+    z-index: 9999;
+    background: url(images/bt_pesquisar.jpg) no-repeat;
+    background-image: url(images/bt_pesquisar.jpg);
+}
+section#topo div#botaopesquisar a{
+	text-decoration: none;
+}
+
+section#topo div#acessologin{
+	float: left;
+	padding-top: 7px;
+	padding-left: 86px;
+	font-size: 12px;	
+	font-weight: bold;
+}
+section#topo div#acessologin a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+section#topo div#acessologin a:hover{
+	text-decoration: underline;
+}
+section#topo div#acessibilidade{
+	float: left;
+	padding-top: 7px;
+	padding-left: 97px;
+	font-size: 12px;
+	color: #FFFFFF;	
+}
+section#topo div#aumentarletra{
+	float: left;
+	padding-top: 5px;
+	padding-left: 14px;
+	font-size: 14px;
+	color: #FFFFFF;	
+}
+section#topo div#diminuirletra{
+	float: left;
+	padding-top: 11px;
+	padding-left: 6px;
+	font-size: 10px;
+	color: #FFFFFF;	
+}
+
+section#menutopogrande nav ul{
+	border: 0px solid #FFFFFF;
+    color: #FFFFFF;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 10px;
+    height: 31px;
+    padding: 0;
+    margin: 0;
+}
+section#menutopogrande nav ul li{
+	display: block;
+	float: left;
+    list-style-type: none;
+    padding-top: 9px;
+    padding-bottom: 10px;
+}
+section#menutopogrande nav ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    padding-right: 15.5px;
+    padding-left: 12px;
+}
+section#menutopogrande nav ul li a:hover{
+    padding-top: 9px;
+    padding-bottom: 10px;
+    background-color: #FF9900;    
+}
+
+header section#menutopogrande{
+	width: 1000px;
+	height: 31px;
+	background-color: #002753;	
+}
+aside#logo{
+	float: left;
+	width:130px;
+	height:80px;
+	margin-left:10px;
+	margin-top:20px;
+	background: url('images/outrubro_rosa.png') no-repeat;
+}
+aside#logo70{
+	float:left;
+	width:100px;
+	height:80px;
+	margin:20px 0px 0px 0px ;
+	background:url('images/70anos.jpg') no-repeat;	
+}
+header section aside#unidade{
+	padding-top: 40px;
+	margin-right: 5px;
+	font-size: 35px;
+	text-align: right;
+	font-family:tahoma, arial, verdana;
+	color: #00478B;
+}
+aside#menucursos{		
+	float: right;	
+	margin-right: 1px;
+	font-size:15px;
+	font-family: tahoma;
+}
+aside#menucursos span{
+	padding-top: 2.5px;
+	padding-right: 12px;
+	float: left;
+	font-size:12px;
+	color:#00478b;
+}
+aside#menucursos nav{
+	float: right;
+	color: #4F4CAB;
+}
+aside#menucursos nav a{
+	text-decoration: none;
+	font-size:12px;
+	color:#00478b;
+	padding-right: 1.2px;
+}
+aside#menucursos nav a:hover{
+	text-decoration:underline;
+	font-size:12px;
+	color:#00478b;
+
+}
+aside#menucursos nav a:visited{
+	text-decoration: none;
+	font-size: 12px;
+	color: #00478b;
+}
+section#todo{
+	padding-top: 20px;
+	width: 1000px;
+	height: 1155px;
+}
+section aside#navegacaolateral{
+	float: left;
+	width: 237px;
+	height: 1005px;
+	font-family: tahoma, Geneva, verdana;
+}
+section aside#navegacaolateral div#acessorapido{
+	height: 200px;
+	border: solid 1px #CCCCCC;
+}
+section aside#navegacaolateral div#acessorapido span{
+	display: block;
+	width: 215px;
+	margin-top: 10px;
+	padding-top: 7px;
+	padding-bottom: 5px;
+	margin-left: 10px;
+	border-top: solid 6px #FF8347;
+	font-size: 18px;
+	color: #FF8347;
+}
+section aside#navegacaolateral div#acessorapido ul li{
+	list-style-type: none;
+}
+section aside#navegacaolateral div#acessorapido ul li{
+	width: 215px;
+	margin-top: 5px;
+	margin-left: 10px;
+	border-top: dotted 1px #CCCCCC;
+	font-size: 14px;
+	color: #777777;
+}
+section aside#navegacaolateral div#acessorapido ul li a{
+	text-decoration: none;
+	color: #777777;
+}
+section aside#navegacaolateral div#acessorapido ul li a:hover{
+	text-decoration: underline;
+	color: #777777;
+}
+
+section aside#navegacaolateral div#cursoslateral{
+	height: 412px;
+	padding-top: 18px;
+}
+section aside#navegacaolateral div#cursoslateral ul li{
+	list-style-type: none;
+	margin-bottom: -2px;
+}
+
+section section#conteudo{
+	float: right;
+	width: 746px;
+	height: 1005px;
+	margin-bottom: 3px;
+}
+aside#slider{
+	width: 746px;
+	height: 200px;
+	margin-left: -1px;
+	background-color: #48BBD8;
+}
+aside#slider span{
+	margin-right: 3px;
+	padding-bottom: 1px;
+	padding-left: 1px;
+}
+/* ESTILO PARA SLIDER */
+.w3-badge{
+	background-color:#000;
+	color:#fff;
+	display:inline-block;
+	text-align:center
+}
+.w3-badge{
+	border-radius: 50%;
+}
+.w3-display-container{
+	position:relative
+}
+.w3-center{
+	text-align:right!important
+}
+.w3-display-bottomleft{
+	position:absolute;
+	left:-8px;
+	bottom: 6px;
+}
+
+/* CORES PARA BOLINHAS DO SLIDER */
+.w3-white,.w3-hover-white:hover{
+	color:#000!important;
+	background-color:#fff!important
+}
+.w3-black,.w3-hover-black:hover{
+	color:#fff!important;
+	background-color:#000!important
+}
+
+section#primeiro{
+	padding-top: 20px;
+	width: 100%;
+	height: 220px;	
+	font-family: tahoma;
+	padding-left: 1px;
+}
+
+aside#novasprofissoes{
+	float: left;
+	width: 362px;
+	height: 151px;
+}
+aside#novasprofissoes div#news1{
+    padding: 0px;
+    margin: 3px 0px 0px 0px;
+    color: #FF7F00;
+    font-size: 14px;
+}
+aside#novasprofissoes div#news1 a{
+	text-decoration: none;
+	color: #FF7F00;
+}
+aside#novasprofissoes div#news1 a:hover{
+	text-decoration: underline;
+	color: #FF7F00;
+}
+
+aside#novasprofissoes div#linknews1{
+	padding-top: 2px;
+	font-size: 12px;
+}
+aside#novasprofissoes div#linknews1 a{
+	text-decoration: none;
+	color: #575757;
+}
+aside#comunicacao{
+	float: right;
+	width: 362px;
+	height: 151px;
+}
+aside#comunicacao div#news2{
+    padding: 0px;
+    margin: 3px 0px 0px 0px;
+    color: #FF7F00;
+    font-size: 14px;
+}
+aside#comunicacao div#news2 a{
+	text-decoration: none;
+	color: #FF7F00;
+}
+aside#comunicacao div#news2 a:hover{
+	text-decoration: underline;
+	color: #FF7F00;
+}
+
+aside#comunicacao div#linknews2{
+	padding-top: 2px;
+	font-size: 12px;
+}
+aside#comunicacao div#linknews2 a{
+	text-decoration: none;
+	color: #575757;
+}
+
+section#segundo{
+	width: 100%;
+	height: 167px;		
+	font-family: tahoma;
+}
+aside#saude1{	
+	float: left;
+	margin-right: 20px;
+	width: 235px;
+	height: 100px;
+}
+aside#saude1 div#news3{
+    padding: 0px;
+    margin: 2px 0px 0px 0px;
+    color: #FF7F00;
+    font-size: 14px;
+}
+aside#saude1 div#news3 a{
+	text-decoration: none;
+	color: #FF7F00;
+}
+aside#saude1 div#news3 a:hover{
+	text-decoration: underline;
+	color: #FF7F00;
+}
+
+aside#saude1 div#linknews3{
+	padding-top: 0px;
+	font-size: 12px;
+}
+aside#saude1 div#linknews3 a{
+	text-decoration: none;
+	color: #575757;
+}
+aside#sustentabilidade{
+	float: left;
+	margin-right: 20px;
+	width: 235px;
+	height: 100px;
+}
+aside#sustentabilidade div#news4{
+    padding: 0px;
+    margin: 2px 0px 0px 0px;
+    color: #FF7F00;
+    font-size: 14px;
+}
+aside#sustentabilidade div#news4 a{
+	text-decoration: none;
+	color: #FF7F00;
+}
+aside#sustentabilidade div#news4 a:hover{
+	text-decoration: underline;
+	color: #FF7F00;
+}
+aside#sustentabilidade div#linknews4{
+	padding-top: 0px;
+	font-size: 12px;
+}
+aside#sustentabilidade div#linknews4 a{
+	text-decoration: none;
+	color: #575757;
+}
+aside#saude2{
+	float: left;
+	width: 235px;
+	height: 100px;	
+}
+aside#saude2 div#news5{
+    padding: 0px;
+    margin: 2px 0px 0px 0px;
+    color: #FF7F00;
+    font-size: 14px;
+}
+aside#saude2 div#news5 a{
+	text-decoration: none;
+	color: #FF7F00;
+}
+aside#saude2 div#news5 a:hover{
+	text-decoration: underline;
+	color: #FF7F00;
+}
+
+aside#saude2 div#linknews5{
+	padding-top: 0px;
+	font-size: 12px;
+}
+aside#saude2 div#linknews5 a{
+	text-decoration: none;
+	color: #575757;
+}
+
+section#terceiro{
+	width: 100%;
+	height: 167px;		
+	font-family: tahoma;	
+	border-bottom: 1px solid #EAEAEA;
+}
+aside#desafiosconselhos{	
+	float: left;
+	margin-right: 20px;
+	width: 235px;
+	height: 100px;
+}
+aside#desafiosconselhos div#news6{
+    padding: 0px;
+    margin: 2px 0px 0px 0px;
+    color: #FF7F00;
+    font-size: 14px;
+}
+aside#desafiosconselhos div#news6 a{
+	text-decoration: none;
+	color: #FF7F00;
+}
+aside#desafiosconselhos div#news6 a:hover{
+	text-decoration: underline;
+	color: #FF7F00;
+}
+
+aside#desafiosconselhos div#linknews6{
+	padding-top: 0px;
+	font-size: 12px;
+}
+aside#desafiosconselhos div#linknews6 a{
+	text-decoration: none;
+	color: #575757;
+}
+aside#saude3{	
+	float: left;
+	margin-right: 20px;
+	width: 235px;
+	height: 100px;
+}
+aside#saude3 div#news7{
+    padding: 0px;
+    margin: 2px 0px 0px 0px;
+    color: #FF7F00;
+    font-size: 14px;
+}
+aside#saude3 div#news7 a{
+	text-decoration: none;
+	color: #FF7F00;
+}
+aside#saude3 div#news7 a:hover{
+	text-decoration: underline;
+	color: #FF7F00;
+}
+aside#saude3 div#linknews7{
+	padding-top: 0px;
+	font-size: 12px;
+}
+aside#saude3 div#linknews7 a{
+	text-decoration: none;
+	color: #575757;
+}
+aside#audio{	
+	float: left;
+	width: 235px;
+	height: 100px;	
+}
+aside#audio div#news8{
+    padding: 0px;
+    margin: 2px 0px 0px 0px;
+    color: #FF7F00;
+    font-size: 14px;
+}
+aside#audio div#news8 a{
+	text-decoration: none;
+	color: #FF7F00;
+}
+aside#audio div#news8 a:hover{
+	text-decoration: underline;
+	color: #FF7F00;
+}
+aside#audio div#linknews8{
+	padding-top: 0px;
+	font-size: 12px;
+}
+aside#audio div#linknews8 a{
+	text-decoration: none;
+	color: #575757;
+}
+section#terceiro div#todasnoticias{
+	float: right;	
+	width: 150px;
+	padding-top: 68px;
+	font-size: 15px;
+	text-align: right;
+	color: #FF7F00;
+}
+section#terceiro div#todasnoticias a{
+	text-decoration: none;
+	color: #FF7F00;
+}
+section#terceiro div#todasnoticias a:hover{
+	text-decoration: underline;
+	color: #FF7F00;
+}
+
+section#quarto{
+	width: 745px;
+	height: 254px;
+	font-family: tahoma;	
+}
+section#quarto div#eventos{
+	clear: both;
+	width: 100px;
+	height: 25px;
+	font-size: 18px;
+	color: #004795;
+	border-bottom: 5px solid #F67C00;
+}
+
+
+
+footer#grade{
+	clear: both;
+	width: 1000px;
+	height: 141px;
+	background-color: #3D53D9;
+}
